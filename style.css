@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    overflow-x: scroll;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Bai Jamjuree';
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url("./bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.history {
+    font-size: 47px;
+}
+
+#section {
+    width: 750px;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.clipboard {
+    font-size: 21px;
+    padding: 20px 0;
+    color: grey;
+    line-height: 2;
+}
+
+.flex {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ios-btn {
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #26BBA5;
+    font-family: 'Bai Jamjuree';
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #26BBA5;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 0px 3px 2px rgba(24, 114, 96, 0.7);
+}
+
+.mac-btn {
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #6174FF;
+    font-family: 'Bai Jamjuree';
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #6174FF;
+    color: white;
+    
+    margin-top: 30px;
+    box-shadow: 0px 3px 2px rgba(23, 38, 150, 0.7);
+}
+
+#section2 {
+    width: 700px;
+    height: fit-content;
+    margin: 30px auto;
+    padding-top: 100px;
+}
+
+.track {
+    font-size: 35px;
+}
+
+.track-p {
+    font-size: 18px;
+    padding: 20px 0;
+    color: grey;
+    line-height: 2;
+}
+
+#section3 {
+    max-width: 1500px;
+    height: fit-content;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.comp-div {
+    width: 50%;
+    height: auto;
+}
+
+.computer {
+    width: 100%;
+}
+
+.attributes {
+    width: 30%;
+    text-align: left;
+}
+
+.atr-hdr {
+    font-size: 25px;
+}
+
+.attr-p {
+    width: 80%;
+    padding-top: 20px;
+    line-height: 2;
+    color: grey;
+}
+
+.pad-all {
+    padding-bottom: 50px;
+}
+
+#section4 {
+    width: 700px;
+    height: fit-content;
+    margin: 30px auto;
+    padding-top: 100px;
+}
+
+#section5 {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.device {
+    width: 50%;
+}
+
+#section6 {
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#section7 {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+#section7 div {
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+}
+
+.blacklist {
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#section7 div h3 {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+#section7 div p {
+    color: grey;
+    line-height: 2;
+}
+
+#section8 {
+    max-width: 1250px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+#section8 div {
+    width: 18%;
+    height: fit-content;
+}
+
+#section8 div img {
+    width: auto;
+    height: auto;
+}
+
+#section9 {
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 45px 130px;
+    background-color: #f5f6f8;
+}
+
+.copyright {
+    width: 60px;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section div {
+    width: 18%;
+    height: fit-content;
+}
+
+footer section div p {
+    font-size: 18px;
+}
+
+.footer-p {
+    padding-bottom: 20px;
+}
+
+.icon-flex {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #26BBA5;
+}
+
+.mac-btn:hover {
+    opacity: 0.8;
+}
+
+.ios-btn:hover {
+    opacity: 0.8;
+}
+
+.bird:hover {
+    filter: invert(62%) sepia(80%) saturate(375%) hue-rotate(120deg) brightness(84%) contrast(94%);
+}
+
+.fb:hover {
+    filter: invert(33%) sepia(90%) saturate(734%) hue-rotate(191deg) brightness(88%) contrast(77%);
+}
+
+.ig:hover {
+    filter: invert(24%) sepia(24%) saturate(6121%) hue-rotate(263deg) brightness(98%) contrast(86%);
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        font-family: 'Bai Jamjuree';
+    }
+
+    header {
+        width: 100%;
+        height: 300px;
+        background-image: url("./bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:  center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px
+    }
+
+    main {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+        padding: 20px;
+    }
+
+    .history {
+        font-size: 38px;
+    }
+    
+    #section {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .clipboard {
+        font-size: 19px;
+        padding: 20px 0;
+        color: grey;
+        line-height: 2;
+    }
+    
+    .flex {
+        width: 100%;
+        display: block;
+    }
+    
+    .ios-btn {
+        width: 100%;
+        border-radius: 30px;
+        border: 1px solid #26BBA5;
+        font-family: 'Bai Jamjuree';
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #26BBA5;
+        color: white;
+        box-shadow: 0px 3px 2px rgba(24, 114, 96, 0.7);
+    }
+    
+    .mac-btn {
+        width: 100%;
+        border-radius: 30px;
+        border: 1px solid #6174FF;
+        font-family: 'Bai Jamjuree';
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #6174FF;
+        color: white;
+        margin-top: 30px;
+        box-shadow: 0px 3px 2px rgba(23, 38, 150, 0.7);
+    }
+    
+    #section2 {
+        width: 100%;
+        height: fit-content;
+        margin: 30px auto;
+        padding-top: 100px;
+    }
+    
+    .track {
+        font-size: 38px;
+    }
+
+    .cap {
+        text-transform: capitalize;
+    }
+    
+    .track-p {
+        font-size: 20px;
+        padding: 20px 0;
+        color: grey;
+        line-height: 2;
+    }
+
+    .track-p1 {
+    font-size: 18px;
+    padding: 20px 0;
+    color: grey;
+    line-height: 2;
+    }
+    
+    #section3 {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .comp-div {
+        width: 100%;
+        height: auto;
+    }
+    
+    .computer {
+        width: 100%;
+    }
+    
+    .attributes {
+        width: 100%;
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .atr-hdr {
+        font-size: 35px;
+    }
+    
+    .attr-p {
+        width: 100%;
+        font-size: 20px;
+        padding-top: 20px;
+        line-height: 2;
+        color: grey;
+    }
+    
+    .pad-all {
+        padding-bottom: 50px;
+    }
+    
+    #section4 {
+        width: 100%;
+        height: fit-content;
+        margin: 30px auto;
+        padding-top: 100px;
+    }
+    
+    #section5 {
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    .device {
+        width: 100%;
+    }
+    
+    #section6 {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .text {
+        text-transform: none;
+    }
+    
+    #section7 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+        padding-bottom: 100px;
+    }
+    
+    #section7 div {
+        width: 100%;
+        padding-bottom: 50px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .blacklist {
+        width: auto;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    #section7 div h3 {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    
+    #section7 div p {
+        font-size: 20px;
+        color: grey;
+        line-height: 2;
+    }
+    
+    #section8 {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+        padding-bottom: 150px;
+    }
+    
+    #section8 div {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    
+    #section8 div img {
+        width: auto;
+        height: auto;
+    }
+    
+    #section9 {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+    }
+    
+    footer {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        background-color: #f5f6f8;
+    }
+    
+    .copyright {
+        width: 60px;
+        height: auto;
+    }
+    
+    .footer {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    
+    footer section div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    footer section div p {
+        font-size: 18px;
+    }
+    
+    .footer-p {
+        padding-bottom: 40px;
+    }
+    
+    .icon-flex {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    
+    .icon {
+        width: 60px;
+    }
+
+    .bird {
+        margin: 0 15px;
+    }
+    
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        color: #26BBA5;
+    }
+    
+    .mac-btn:hover {
+        opacity: 0.8;
+    }
+    
+    .ios-btn:hover {
+        opacity: 0.8;
+    }
+    
+    .bird:hover {
+        filter: invert(62%) sepia(80%) saturate(375%) hue-rotate(120deg) brightness(84%) contrast(94%);
+    }
+    
+    .fb:hover {
+        filter: invert(33%) sepia(90%) saturate(734%) hue-rotate(191deg) brightness(88%) contrast(77%);
+    }
+    
+    .ig:hover {
+        filter: invert(24%) sepia(24%) saturate(6121%) hue-rotate(263deg) brightness(98%) contrast(86%);
+    }
+
+}
