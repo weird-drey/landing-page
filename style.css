@@ -53,14 +53,14 @@ main {
 }
 
 .flex {
-    width: 450px;
+    width: 550px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .ios-btn {
-    width: 200px;
+    width: 240px;
     padding: 15px;
     border-radius: 30px;
     border: 1px solid #26BBA5;
@@ -74,7 +74,7 @@ main {
 }
 
 .mac-btn {
-    width: 200px;
+    width: 240px;
     padding: 15px;
     border-radius: 30px;
     border: 1px solid #6174FF;
@@ -258,6 +258,8 @@ footer section div p {
 }
 
 .icon-flex {
+    display: flex;
+    justify-content: space-evenly;
     padding-top: 10px;
     padding-left: 40px;
 }
