@@ -550,6 +550,7 @@ a:hover {
         width: 100%;
         height: fit-content;
         margin: auto;
+        margin-bottom: 100px;
     }
     
     footer {
